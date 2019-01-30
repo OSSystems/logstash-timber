@@ -1,4 +1,4 @@
-FROM logstash:5.6.7-alpine
+FROM logstash:5.6.14-alpine
 
 RUN logstash-plugin install logstash-output-timber
 
